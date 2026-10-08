@@ -30,13 +30,13 @@
         <div class="banner-contenido">
             <h1>No juegues solo,</h1>
             <h1>Elige <b>PlayComp</b></h1>
-                <p>
-                    Descubre nuestras suscripciones y encuentra la opción perfecta
-                    para disfrutar de tu compañero de juego, PlayComp te acompaña.
-                </p>
-                <a href="#suscripciones" class="banner-boton">
-                    Suscribirse
-                </a>
+            <p>
+                Descubre nuestras suscripciones y encuentra la opción perfecta
+                para disfrutar de tu compañero de juego, PlayComp te acompaña.
+            </p>
+            <a href="#suscripciones" class="banner-boton">
+                Suscribirse
+            </a>
         </div>
     </section>
 
@@ -48,7 +48,7 @@
                 <span>Suscríbete ahora y consigue ventajas exclusivas</span>
                 <span>¡Haz que PlayComp sea tu compañero de juego!</span>
             </div>
-    <!-- Repetimos el texto para más duración -->
+            <!-- Repetimos el texto para más duración -->
             <div class="promo-grupo">
                 <span>¡Aprovecha nuestros descuentos!</span>
                 <span>Suscríbete ahora y consigue ventajas exclusivas</span>
@@ -59,22 +59,22 @@
 
     <!-- Parte principal de la página donde mostraremos todo el contenido -->
     <main>
-     <!-- Seccion en la que explicamos quienes somos -->
+        <!-- Seccion en la que explicamos quienes somos -->
         <section class="seccion-quesomos">
             <div class="quesomos-texto">
                 <h1>¿Quienes somos?</h1>
-                <p>Somos <b>PlayComp</b>, una inteligencia artificial diseñada para 
+                <p>Somos <b>PlayComp</b>, una inteligencia artificial diseñada para
                     convertirse en tu compañero de juego.
-                </p> 
-                <p>Analizamos tu forma de jugar para entender tus puntos fuertes, 
+                </p>
+                <p>Analizamos tu forma de jugar para entender tus puntos fuertes,
                     estilo de juego y caracter. En base a ello, crearemos la IA
-                    perfecta para ti. 
+                    perfecta para ti.
                 </p>
             </div>
             <img class="section-quesomos-img" src="img/img_quesomos.png" alt="Pantalla de Ordenador">
         </section>
 
-    <!-- Aquí mostramos las IAs predeterminadas que tenemos -->
+        <!-- Aquí mostramos las IAs predeterminadas que tenemos -->
         <section class="personaliza-ia">
             <div class="personaliza-titulo">
                 <h2>¡Personaliza tu IA!</h2>
@@ -84,7 +84,7 @@
                     luego se adapten a ti, ¡Elige la que más te guste!
                 </p>
             </div>
-        <!-- Estas son las "tarjetas" de sus personalidades -->
+            <!-- Estas son las "tarjetas" de sus personalidades -->
             <div class="personalidades">
                 <!-- Divertida -->
                 <div class="personalidad-card divertido">
@@ -147,7 +147,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Aquí pondremos el cuestionario que recolectará la info del usuario -->
         <section class="configuracion-ia">
             <div class="configuracion-superior">
@@ -161,38 +161,22 @@
                 <!-- Datos del usuario -->
                 <div class="formulario-bloque">
                     <h3>Cuéntanos sobre ti</h3>
-                        <div class="formulario-grid">
-                            <div class="formulario-campo">
-                                <label for="nombre">Nombre</label>
-                                <input
-                                    type="text"
-                                    id="nombre"
-                                    name="nombre"
-                                    placeholder="Introduce tu nombre"
-                                    required>
-                            </div>
-                            <div class="formulario-campo">
-                                <label for="edad">Edad</label>
-                                <input
-                                    type="number"
-                                    id="edad"
-                                    name="edad"
-                                    placeholder="Tu edad"
-                                    min="1"
-                                    max="120"
-                                    required>
-                            </div>
+                    <div class="formulario-grid">
+                        <div class="formulario-campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre" required>
                         </div>
+                        <div class="formulario-campo">
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" name="edad" placeholder="Tu edad" min="1" max="120" required>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Objetivo del usuario -->
                 <div class="formulario-bloque">
                     <h3>¿Qué buscas con PlayComp?</h3>
-                    <textarea
-                        id="objetivos"
-                        name="objetivos"
-                        placeholder="Cuéntanos qué esperas de tu IA..."
-                        required>
+                    <textarea id="objetivos" name="objetivos" placeholder="Cuéntanos qué esperas de tu IA..." required>
                     </textarea>
                 </div>
 
@@ -201,11 +185,7 @@
                     <h3>¿Qué tipo de IA quieres utilizar?</h3>
                     <div class="tipo-ia">
                         <label class="opcion-ia">
-                            <input
-                                type="radio"
-                                name="tipoIA"
-                                value="cooperativa"
-                                required>
+                            <input type="radio" name="tipoIA" value="cooperativa" required>
                             <div class="opcion-contenido">
                                 <span class="opcion-titulo">
                                     IA Cooperativa
@@ -217,10 +197,7 @@
                             </div>
                         </label>
                         <label class="opcion-ia">
-                            <input
-                                type="radio"
-                                name="tipoIA"
-                                value="competitiva">
+                            <input type="radio" name="tipoIA" value="competitiva">
                             <div class="opcion-contenido">
                                 <span class="opcion-titulo">
                                     IA Competitiva
@@ -237,10 +214,7 @@
                 <!-- Juego que le gustaría -->
                 <div class="formulario-bloque">
                     <h3>¿A qué juego quieres jugar?</h3>
-                    <select
-                        id="juego"
-                        name="juego"
-                        required>
+                    <select id="juego" name="juego" required>
                         <option value="">
                             Selecciona un juego
                         </option>
@@ -269,42 +243,29 @@
                 </div>
 
                 <!-- Dificultad del juego -->
-                <div
-                    class="formulario-bloque dificultad-bloque"
-                    id="dificultadBloque">
+                <div class="formulario-bloque dificultad-bloque" id="dificultadBloque">
                     <h3>Elige la dificultad de tu IA</h3>
                     <p class="ayuda-dificultad">
                         Esta opción solo está disponible para el modo competitivo.
                     </p>
                     <div class="dificultades">
                         <label class="dificultad">
-                            <input
-                                type="radio"
-                                name="dificultad"
-                                value="facil">
+                            <input type="radio" name="dificultad" value="facil">
                             <span>Fácil</span>
                         </label>
                         <label class="dificultad">
-                            <input
-                                type="radio"
-                                name="dificultad"
-                                value="intermedia">
+                            <input type="radio" name="dificultad" value="intermedia">
                             <span>Intermedia</span>
                         </label>
                         <label class="dificultad">
-                            <input
-                                type="radio"
-                                name="dificultad"
-                                value="dificil">
+                            <input type="radio" name="dificultad" value="dificil">
                             <span>Difícil</span>
                         </label>
                     </div>
                 </div>
-                
+
                 <!-- Boton para enviar el formulario una vez contestadas las preguntas -->
-                <button
-                    type="submit"
-                    class="configuracion-boton">
+                <button type="submit" class="configuracion-boton">
                     Enviar configuración
                 </button>
             </form>
@@ -322,4 +283,5 @@
         <p>&copy; 2026 PlayComp AI. Todos los derechos reservados.</p>
     </footer>
 </body>
+
 </html>
